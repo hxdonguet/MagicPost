@@ -1,0 +1,193 @@
+.mainsb {
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    display: block;
+    transition: margin-left .3s ease-in-out,width .3s ease-in-out;
+    overflow-y: hidden;
+    z-index: 1038;
+    background-color: #343a40;
+    float: none;
+    height: 100vh;
+}
+.dropdown {
+    position: relative;
+}
+.brandlink {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: .8125rem .5rem;
+    white-space: nowrap;
+    border-bottom: 1px solid #4b545c;
+    color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    transition: width .3s ease-in-out;
+    width: 15%;
+    z-index: 1035;
+    background-color: #343a40;
+}
+.p0m0 {
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.75rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.mauchu {
+    color: white;
+    text-align: center;
+}
+.pb4mb4 {
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: 0;
+    height: calc(100vh - (3.5rem + 1px));
+    margin-top: calc(3.5rem + 1px);
+}
+.os_padding {
+    box-sizing: inherit;
+    direction: inherit;
+    position: absolute;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+.os_viewport {
+    direction: inherit;
+    box-sizing: inherit;
+    resize: none;
+    outline: 0;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+.os_content {
+    display: block;
+    visibility: visible;
+    padding: 0px 8px 24px;
+    height: 100%;
+    width: 100%;
+}
+.mt2 {
+    display: block;
+    margin-top: .5rem;
+}
+.navpills {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    flex-direction: column;
+    margin: -.25rem -.5rem 0;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.navdrop {
+    position: relative;
+    margin-bottom: 0;
+}
+.navdrop:hover {
+    background-color: #0072fc;
+}
+.navnd {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    transition: margin-left .3s linear,opacity .3s ease,visibility .3s ease;
+    padding-left: 10px;
+}
+.navicon {
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transition: margin-left ease-in-out .3s;
+    margin-right: .2rem;
+    text-align: center;
+    width: 1.6rem;
+    font-size: 1.1rem;
+    margin-left: .55rem;
+}
+.navlinkedit {
+    display: block;
+    padding: .5rem 1rem;
+    color: #c2c7d0;
+    border-radius: 0;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.navi_branch {
+    color: #c2c7d0;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 1rem;
+    top: .7rem;
+    transition: transform ease-in-out .3s;
+}
+.navtreeview {
+    margin-top: 0;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(255,255,255,.05);
+    display: block;
+}
+.navdmcon {
+    box-sizing: border-box;
+}
+.cssdmcon {
+    background-color: #343a40;
+    display: block;
+    padding: .5rem 1rem;
+    border-radius: 0;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    color: #c2c7d0;
+    border-color: rgba(255,255,255,.9);
+    border-left: .2rem solid;
+}
+.cssdmcon:hover {
+    background-color: #0072fc;
+}

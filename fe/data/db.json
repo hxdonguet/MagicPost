@@ -1,0 +1,67 @@
+{
+  "employees": [
+    {
+      "employeeName": "ádasd",
+      "username": "dfhgdfhgjk",
+      "password": "ugdfuig",
+      "email": "vnxcv@gmail.com",
+      "phoneNumber": "fgfghfgh",
+      "id": "lxycR80"
+    },
+    {
+      "id": "abcas",
+      "employeeName": "abcde",
+      "username": "duyngo308",
+      "password": "1212",
+      "email": "nduyy003@gmail.com",
+      "phoneNumber": "123"
+    }
+  ],
+  "packages": [
+    {
+      "id": "AdXR5T0",
+      "sender": "a",
+      "receiver": "b",
+      "sendingPlace": "c",
+      "receivingPlace": "d",
+      "status": "TRANSPORTATION",
+      "phoneOfSender": "123",
+      "phoneOfReceiver": "456",
+      "type": "document",
+      "price": "200",
+      "weight": "20g",
+      "currentLocationId": "123asd",
+      "nextLocationId": "345zxc"
+    },
+    {
+      "id": "skjfhks",
+      "sender": "e",
+      "receiver": "f",
+      "sendingPlace": "g",
+      "receivingPlace": "h",
+      "status": "PENDING",
+      "phoneOfSender": "789",
+      "phoneOfReceiver": "678",
+      "type": "package",
+      "price": "400",
+      "weight": "500g",
+      "currentLocationId": "123",
+      "nextLocationId": ""
+    },
+    {
+      "id": "vckbjkvcl",
+      "sender": "e",
+      "receiver": "f",
+      "sendingPlace": "g",
+      "receivingPlace": "h",
+      "status": "TRANSPORTATION",
+      "phoneOfSender": "789",
+      "phoneOfReceiver": "678",
+      "type": "package",
+      "price": "400",
+      "weight": "500g",
+      "currentLocationId": "123asd",
+      "nextLocationId": "123asd"
+    }
+  ]
+}

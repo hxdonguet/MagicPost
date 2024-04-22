@@ -1,0 +1,346 @@
+.footer {
+    position: relative;
+    background: #0072bc;
+    color: #fff;
+    padding-top: 60px;
+    overflow: hidden;
+}
+.footwrapcontainerlg {
+    position: relative;
+    padding-bottom: 230px;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footergrid {
+    display: grid;
+    grid-auto-columns: calc(43% - 45px) calc(19% - 45px) calc(19% - 45px) calc(19% - 45px);
+    grid-column-gap: 60px;
+    grid-template-areas:
+        "f-jsc f-introduce f-search f-service"
+        "f-contact f-introduce f-search f-service"
+        "f-contact f-column f-column f-column"
+        "f-contact f-column-bct f-column-bct f-column-bct"
+        "f-contact f-download-app f-download-app f-download-app";
+    grid-auto-rows: max-content max-content max-content max-content auto;
+}
+.jsc {
+    grid-area: f-jsc;
+    margin-bottom: 20px;
+}
+.footergrid > div > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.jsc h3 {
+    margin-bottom: 10px;
+}
+.footer h3 {
+    color: #fff;
+}
+h3 {
+    margin-top: 0;
+}
+.jsc p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding-right: 40px;
+}
+.contact {
+    grid-area: f-contact;
+}
+
+.footer > div > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.contact h3 {
+    margin-bottom: 10px;
+}
+.contact div {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.headquarter {
+    margin-bottom: 10px;
+}
+.contact h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+.headquarter > div {
+    display: flex;
+    align-items: center;
+}
+.contact div {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.headquarter svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    flex-shrink: 0;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+svg {
+    vertical-align: middle;
+}
+
+.introduce {
+    grid-area: f-introduce;
+    margin-bottom: 30px;
+}
+.footer .introduce h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.footergrid > div > h3 {
+    font-style: normal;
+}
+.footer h3 {
+    color: #fff;
+}
+h3 {
+    margin-top: 0;
+}
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+}
+.footer ul {
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+}
+ul.menu li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+ul.menu li:hover {
+    color: orange;
+    text-decoration: underline;
+}
+a {
+    transition: unset;
+    color: inherit;
+    text-decoration: none;
+}
+.search {
+    grid-area: f-search;
+}
+.footergrid > div > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.footer h3 {
+    color: #fff
+}
+h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.service {
+    grid-area: f-service;
+}
+.footergrid > div > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.footer h3 {
+    color: #fff
+}
+h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.column {
+    grid-area: f-column;
+}
+.support {
+    margin-bottom: 25px;
+}
+.support h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.footer h3 {
+    color: #fff;
+}
+h3 {
+    margin-top: 0;
+}
+.dflexcenter {
+    align-items: center;
+    display: flex;
+}
+.icon1 {
+    width: 59.88px;
+    height: 60px;
+    margin-right: 10px;
+}
+.icon1 svg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.icon1 svg:hover {
+    width: 105%;
+    height: 105%;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+svg {
+    vertical-align: middle;
+}
+.text1 p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+.mxh {
+    margin-bottom: 25px;
+}
+.mxh h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.mxhflex {
+    display: flex;
+}
+.mxh .mxhflex a {
+    margin-right: 5px;
+}
+a {
+    transition: unset;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    outline: none;
+    cursor: pointer;
+}
+.mxh .mxhflex svg {
+    height: 40px;
+    width: 40px;
+}
+.mxh .mxhflex svg:hover {
+    height: 45px;
+    width: 45px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+svg {
+    vertical-align: middle;
+}
+.bocongthuong {
+    margin-bottom: 25px;
+    grid-area: f-column-bct;
+}
+a {
+    transition: unset;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    outline: none;
+    cursor: pointer;
+}
+.bocongthuong img {
+    width: 200px;
+    height: 75px;
+}
+.bocongthuong img:hover {
+    width: 205px;
+    height: 80px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.footer .copyright {
+    position: absolute;
+    bottom: 12px;
+    z-index: 99;
+}
+.footer .copyright img {
+    width: 25%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.footer .copyrighttitle {
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 11px;
+    z-index: 99;
+    color: blue;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+}
+.footer .copyrighttitle a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.yellowline {
+    position: absolute;
+    bottom: 0;
+    pointer-events: none;
+}
+.yellowline img {
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}

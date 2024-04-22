@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "employeeName": "1",
+      "username": "1",
+      "password": "1",
+      "email": "1@gmail.com",
+      "phoneNumber": "1",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "employeeName": "abcde",
+      "username": "duyngo308",
+      "password": "12345",
+      "email": "nduyy003@gmail.com",
+      "phoneNumber": "12345"
+    }
+  ],
+  "packages": [
+    {
+      "name": "a",
+      "id": "1"
+    },
+    {
+      "name": "b",
+      "id": "2"
+    },
+    {
+      "name": "c",
+      "id": "3"
+    }
+  ]
+}

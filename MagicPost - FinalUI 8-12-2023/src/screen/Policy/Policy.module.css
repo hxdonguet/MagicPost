@@ -1,0 +1,69 @@
+.subbanner4 {
+    display: block;
+    position: relative;
+}
+.subbanner4 img {
+    height: 356px;
+    object-fit: cover;
+}
+.title4 {
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+}
+.contain4 {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title4 span {
+    position: absolute;
+    z-index: 2;
+}
+.tieude4 {
+    text-transform: uppercase;
+}
+.ndcg {
+    overflow: hidden;
+    padding: 50px 0 100px;
+}
+.containndcg {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tieudendcg {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: blue;
+}
+.chimuchcg {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+.listhcg {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.emailtn {
+    color: blue;
+}
+.emailtn:hover {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}

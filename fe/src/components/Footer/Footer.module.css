@@ -1,0 +1,225 @@
+.footer {
+    position: relative;
+    background: #0072bc;
+    color: #fff;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.footwrapcontainerlg {
+    position: relative;
+    padding-bottom: 230px;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footergrid {
+    display: grid;
+    grid-auto-columns: calc(43% - 45px) calc(19% - 45px) calc(19% - 45px) calc(19% - 45px);
+    grid-column-gap: 60px;
+    grid-template-areas:
+        "f-jsc f-introduce f-search f-service"
+        "f-contact f-introduce f-search f-service"
+        "f-contact f-column f-column f-column";
+    grid-auto-rows: max-content max-content max-content max-content auto;
+}
+
+.jsc {
+    grid-area: f-jsc;
+    margin-bottom: 20px;
+}
+
+.footergrid>div>h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.jsc h3 {
+    margin-bottom: 10px;
+}
+
+.footer h3 {
+    color: #fff;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.jsc p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding-right: 40px;
+}
+
+.contact {
+    grid-area: f-contact;
+}
+
+.footer>div>h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.contact h3 {
+    margin-bottom: 10px;
+}
+
+.contact div {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headquarter {
+    margin-bottom: 10px;
+}
+
+.contact h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.headquarter>div {
+    display: flex;
+    align-items: center;
+}
+
+.contact div {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.headquarter svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    flex-shrink: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+.introduce {
+    grid-area: f-introduce;
+    margin-bottom: 30px;
+}
+
+.footer .introduce h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footergrid>div>h3 {
+    font-style: normal;
+}
+
+.footer h3 {
+    color: #fff;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+a {
+    transition: unset;
+    color: inherit;
+    text-decoration: none;
+}
+
+.search {
+    grid-area: f-search;
+}
+
+.footergrid>div>h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.footer h3 {
+    color: #fff
+}
+
+
+.text1 p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+.footer .copyright {
+    position: absolute;
+    bottom: 12px;
+    z-index: 99;
+}
+
+.footer .copyright img {
+    width: 25%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.footer .copyrighttitle {
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 11px;
+    z-index: 99;
+    color: blue;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.footer .copyrighttitle a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.yellowline {
+    position: absolute;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.yellowline img {
+    width: 100%;
+}

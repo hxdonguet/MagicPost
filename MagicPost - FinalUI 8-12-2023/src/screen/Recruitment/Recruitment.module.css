@@ -1,0 +1,244 @@
+.subbanner4 {
+    display: block;
+    position: relative;
+}
+.subbanner4 img {
+    height: 356px;
+    object-fit: cover;
+}
+.title4 {
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+}
+.contain4 {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title4 span {
+    position: absolute;
+    z-index: 2;
+}
+.tieude4 {
+    text-transform: uppercase;
+}
+.containndcg {
+    margin: 70px 0;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tieudendcg {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: blue;
+}
+.wrsearch {
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,.16);
+    border-radius: 10px;
+    padding: 42px 40px 50px;
+}
+.titletv {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 30px;
+}
+.rowpv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.nhapcv {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.wrsearch .plhold {
+    margin-bottom: 0;
+}
+.wrsearch .input_custom {
+    
+    padding: 13px 20px;
+    background: #fff;
+    border: 1px solid rgba(49,49,49,.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: calc(1.5em + 1rem + 12px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+}
+.chontinh {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.wrsearch .plhold2 {
+    margin-bottom: 0;
+}
+.wrsearch .input_custom2 {
+    padding-left: 0.5px;
+    padding-right: 45px;
+    background: #fff;
+    border: 1px solid rgba(49,49,49,.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: calc(1.5em + 1rem + 12px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+}
+.xn {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.wrsearch button {
+    color: #fff;
+    background: #f7941e;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+}
+.wrsearch button:hover {
+    background-color: #0072bc;
+}
+.listcv {
+    margin-top: 54px;
+}
+.rowcv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.rowcv_nd {
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.rowcv_ha {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+}
+.listha {
+    margin: 15px;
+}
+.containndcg .ndut {
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 30px;
+}
+.ctcv {
+    padding: 20px 30px;
+    background: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.ctcv:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+.ctcv .titlecv {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    font-weight: bold;
+}
+.ctcv .diadiem_thoigian {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7d7d7d;
+}
+.ctcv .diadiem_thoigian .diadiemthoigianct {
+    margin-right: 30px;
+    align-items: center;
+    display: flex;
+}
+.ctcv .diadiem_thoigian img {
+    margin-right: 5px;
+    max-width: 24px;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.ctcv .watchmore {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #f7941e;
+}
+.ctcv .watchmore a {
+    margin-right: 5px;
+    transition: unset;
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    font-weight: bold;
+}
+.ctcv .watchmore a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.ctcv .watchmore img {
+    margin-right: 5px;
+    max-width: 24px;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}

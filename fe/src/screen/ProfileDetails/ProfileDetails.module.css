@@ -1,0 +1,129 @@
+.pagetitle {
+    margin-left: 25px;
+    padding-bottom: 75px;
+}
+
+.pagetitle .nd1 {
+    width: 50%;
+    float: left;
+    display: block;
+    color: #31708f;
+}
+
+.colsm6xs12 {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.x_fill {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e6e9ed;
+    border-radius: 5px;
+}
+
+.titlend {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.471;
+    color: #31708f;
+    border-bottom: 2px solid #e6e9ed;
+    padding: 1px 5px 6px;
+    margin-bottom: 10px;
+}
+
+.ndtd {
+    color: #31708f;
+    padding: 0 5px 6px;
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+
+.form_group {
+    color: #31708f;
+    margin-bottom: 10px;
+}
+
+.labelgroup {
+    color: #31708f;
+    max-width: 100%;
+    font-weight: bold;
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: right;
+    padding-top: 8px;
+}
+
+.box {
+    color: #31708f;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.formcd {
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #DDE2E8;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #eee;
+    cursor: not-allowed;
+}
+.formnhap {
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #DDE2E8;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* .insolid {
+    border-top: 1px solid #e5e5e5;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    margin-top: 275px;
+    margin-bottom: 25px;
+} */
+.xn {
+    border-radius: 5px;
+    display: block;
+    height: 34px;
+    font-size: 14px;
+    border: 1px solid #dde2e8;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #31708f;
+    color: white;
+}
+.xn:hover {
+    background-color: yellow;
+    color: #31708f;
+}
+.error_cn {
+    color: red;
+    text-align: center;
+}

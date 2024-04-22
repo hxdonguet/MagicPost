@@ -1,0 +1,92 @@
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(49, 49, 49, 0.8);
+}
+.modal_content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #fff;
+    padding: 14px 28px;
+    border-radius: 5px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.title_form {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    border-bottom: 1px solid ;
+    padding-bottom: 10px;
+}
+.field {
+    display: flex;
+    gap:20px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.status {
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    padding-left: 10px;
+    /* text-align: center; */
+    border-bottom: solid 1px #d7d7db;
+}
+
+.field_edit {
+    height: 40px;
+    margin: 45px 0px;
+    margin-bottom: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.btn_update_edit {
+    width: 80px;
+    height: 40px;
+    background: #007bff;
+    color: #ffffff;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+}
+.btn_update_edit:hover {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+.btn_close_edit {
+    width: 80px;
+    height: 40px;
+    background-color: #dc3545;
+    color: #ffffff;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+}
+.btn_close_edit:hover {
+    background-color: #fff;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+.btn_close_edit:last-child {
+    margin-left: 10px;
+}

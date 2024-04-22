@@ -1,0 +1,128 @@
+.subbanner3 {
+    display: block;
+    position: relative;
+}
+.subbanner3 img {
+    height: 356px;
+    object-fit: cover;
+}
+.title3 {
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+}
+.contain3 {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title3 span {
+    position: absolute;
+    z-index: 2;
+}
+.tieude3 {
+    text-transform: uppercase;
+}
+.tracuuhcg {
+    margin-bottom: 70px;
+}
+.containtc2 {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.holidayoff2 {
+    box-shadow: 20px 10px 60px rgba(0,0,0,.05);
+    border-radius: 10px;
+    margin: 70px 0;
+    padding: 40px;
+}
+.holidaytext2 {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    align-items: center;
+    display: flex;
+}
+.holidaytext2 img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.hangcss2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.phandai2 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.actoff2 select {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 0.5px;
+}
+.phanngan2 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.actoff2 button {
+    color: #fff;
+    background: #f7941e;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+}
+.actoff2 button:hover {
+    background-color: #0072bc;
+}
+.nutbam2 {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.chuy2 {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #0072bc;
+    font-weight: bold;
+}
+.chuy2:hover {
+    color: orange;
+    text-decoration: underline;
+}

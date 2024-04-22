@@ -1,0 +1,163 @@
+.subbanner2 {
+    display: block;
+    position: relative;
+}
+.subbanner2 img {
+    height: 356px;
+    object-fit: cover;
+}
+img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.title2 {
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+}
+.contain2 {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title2 span {
+    position: absolute;
+    z-index: 2;
+}
+.tieude2 {
+    text-transform: uppercase;
+}
+.tracuu {
+    margin-bottom: 70px;
+}
+.containtc {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.holidayoff {
+    box-shadow: 20px 10px 60px rgba(0,0,0,.05);
+    border-radius: 10px;
+    margin: 70px 0;
+    padding: 40px;
+}
+.holidaytext {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    align-items: center;
+    display: flex;
+}
+.holidaytext img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.hangcss {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.phandai {
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.actoff input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    padding: 10px 20px;
+}
+.phanngan {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.actoff button {
+    color: #fff;
+    background: #f7941e;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+}
+.actoff button:hover {
+    background-color: #0072bc;
+}
+.nutbam {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.chuy {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: right;
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title_form {
+    font-size: 25px;
+    font-weight: 600;
+}
+.layout {
+    border-radius: 0.25rem;
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: #ffffff;
+    border-left: 5px solid #e9ecef;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+}
+.info {
+    display: flex;
+    gap:20px;
+    /* justify-content: space-between; */
+}
+.field {
+    display: flex;
+    gap: 5px;
+}
+.filedInfo{
+    width: 145px;
+    margin-right: 20px;
+}
+.infoTitle {
+    font-weight: 600;
+    font-size: 20px;
+}
+.packageInfo {
+    margin-right: 250px;
+}

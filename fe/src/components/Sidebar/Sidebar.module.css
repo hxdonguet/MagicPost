@@ -1,0 +1,47 @@
+.mainsb {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 600;
+    color: #212529;
+    overflow-y: hidden;
+    z-index: 1038;
+    height: 100%;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .75);
+}
+
+.image {
+    padding: 50px;
+}
+.multiOption,
+.option {
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    gap: 10px;
+}
+
+.more {
+    padding-left: 20px;
+}
+
+.package {
+    display: flex;
+    align-items: center;
+}
+
+
+.selected{
+    background-color: #5392f9;
+    color: white;
+}
+.package:hover,
+.option:hover{
+    box-shadow: 0 0 10px #727786 ;
+}
+
+.selectedOption {
+    color: #5392f9;
+}
+.navnd {
+    padding-left: 30px;
+}

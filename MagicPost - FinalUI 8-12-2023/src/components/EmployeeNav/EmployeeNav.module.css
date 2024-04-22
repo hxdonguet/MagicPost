@@ -1,0 +1,209 @@
+.mainheader {
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #212529;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: .5rem .5rem;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ffffff;
+    background-color: #007bff;
+    margin-bottom: 100px;
+    padding-bottom: 13px;
+}
+
+.navbar {
+    margin-top: 0;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-direction: row;
+}
+
+.navitem {
+    margin: 0;
+}
+
+.navlink {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    padding: .5rem 1rem;
+    height: 2.5rem;
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgba(255, 255, 255, .75);
+}
+
+.navimg {
+    font-size: 1rem;
+    list-style: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .75);
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.navimg:hover {
+    color: orange;
+}
+
+.textwhite {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    padding: .5rem 1rem;
+    color: #ffffff !important;
+    height: 2.5rem;
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.mlauto {
+    margin-top: 0;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: auto !important;
+    flex-direction: row;
+}
+
+.navdropdown {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+}
+
+.ndc {
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    padding: .5rem 1rem;
+    height: 2.5rem;
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgba(255, 255, 255, .75);
+}
+
+.cssspan {
+    color: rgba(255, 255, 255, .75);
+    box-sizing: border-box;
+}
+
+.dlfex {
+    color: rgba(255, 255, 255, .75);
+    box-sizing: border-box;
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+
+.mr2 {
+    color: rgba(255, 255, 255, .75);
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: .5rem !important;
+}
+
+.ndad {
+    color: white;
+    box-sizing: border-box;
+}
+
+.mr3 {
+    color: rgba(255, 255, 255, .75);
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: .5rem !important;
+}
+
+.drmenu {
+    top: 100%;
+    z-index: 1000;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .175);
+    display: block;
+    float: none;
+    position: absolute;
+    left: 0px;
+    right: inherit;
+}
+
+.dritem {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dritem:hover {
+    color: orange;
+}
+
+.dricon {
+    font-size: 1rem;
+    list-style: none;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.drnd {
+    padding-left: 10px;
+}

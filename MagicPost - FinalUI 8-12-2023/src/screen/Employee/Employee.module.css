@@ -1,0 +1,223 @@
+.serach_field_2 {
+    width: 430px;
+    position: relative;
+    margin-right: 0;
+    padding-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .serach_field_2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .serach_field_2 {
+        width: 190px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .serach_field_2 {
+        width: 230px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .serach_field_2 {
+        width: 300px;
+    }
+}
+
+.serach_field_2 .search_inner input {
+    color: #000;
+    font-size: 13px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #144bf6;
+    padding-right: 15px;
+}
+
+.serach_field_2 .search_inner input::placeholder {
+    font-size: 13px;
+    font-weight: 300;
+    color: #7e7172;
+}
+
+.serach_field_2 .search_inner input:focus {
+    outline: none;
+}
+
+.serach_field_2 .search_inner button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: 0 0;
+    font-size: 12px;
+    border: 0;
+    padding-left: 19px;
+    padding-right: 11px;
+}
+
+.serach_field_2 .search_inner button i {
+    font-size: 12px;
+    color: #144bf6;
+}
+
+.serach_field_2 .search_inner button::before {
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    content: "";
+    background: #144bf6;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.serach_field-area .search_inner input {
+    color: #000;
+    font-size: 17px;
+    height: 60px;
+    width: 100%;
+    padding-left: 82px;
+    border: 0;
+    padding-right: 15px;
+    border-bottom: 1px solid #f4f7fc;
+    background: #f7faff;
+    border-radius: 30px;
+}
+
+.serach_field-area .search_inner input::placeholder {
+    font-size: 17px;
+    font-weight: 500;
+    color: #818e94;
+    font-family: muli, sans-serif;
+}
+
+.serach_field-area .search_inner input:focus {
+    outline: none;
+}
+
+.serach_field-area .search_inner button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: 0 0;
+    font-size: 12px;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 11px;
+}
+
+.serach_field-area .search_inner button i {
+    font-size: 14px;
+    color: #818e94;
+}
+
+.d_flex {
+    display: flex !important;
+}
+
+.ms_2 {
+    margin-left: 0.5rem !important;
+}
+
+.btn_1 {
+    background-color: #3b76ef;
+    border: 1px solid #3b76ef;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 23px;
+    text-transform: capitalize;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5px;
+    white-space: nowrap;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn_1:hover {
+    background-color: #fff;
+    border: 1px solid #3b76ef;
+    color: #3b76ef;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #000000;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.table thead th {
+    white-space: nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.action {
+    display: flex;
+    gap: 10px;
+}
+
+.field {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_primary {
+    width: 40px;
+    height: 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.btn_primary:hover {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+.btn_danger {
+    width: 40px;
+    height: 30px;
+    background-color: #dc3545;
+    color: #ffffff;
+    border: 5px;
+    border-radius: 5px;
+    border-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.btn_danger:hover {
+    background-color: #fff;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+} 
+
+

@@ -1,0 +1,164 @@
+.maubackground2 {
+    background-color: #f8f5f5;
+}
+.subbanner6 {
+    display: block;
+    position: relative;
+}
+.subbanner6 img {
+    height: 356px;
+    object-fit: cover;
+}
+.title6 {
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+}
+.contain6 {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title6 span {
+    position: absolute;
+    z-index: 2;
+}
+.tieude6 {
+    text-transform: uppercase;
+}
+.containdvcpn {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.service2 {
+    background-color: #ffffff;
+    padding: 45px 65px;
+    margin: 70px auto 73px;
+    max-width: 1110px;
+}
+.tieudedv2 {
+    font-size: bold;
+    text-align: center;
+    font-size: 28px;
+    color:#0072bc
+}
+.chimuc1dv2 {
+    color: #0072bc;
+    font-size: 20px;
+    margin-top: 50px;
+    outline: none;
+    cursor: pointer;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.service2 img {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.dvkhac2 {
+    margin-bottom: 70px;
+}
+.dvkhac2 h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0072bc;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.wrnonrow2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.colsm412_2 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.anothersv2 {
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    padding: 7px 30px 0;
+    min-height: 324px;
+    margin: 5px 10px;
+}
+.dvk2_img2 {
+    position: relative;
+}
+.dvk2_img2 .dvk2_icon2 {
+    max-width: 120px;
+    position: relative;
+}
+.dvk2_img2 .dvk2_icon2 img {
+    max-width: 120px;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.dvk2_img2 .dvk2_icon2 img:hover {
+    max-width: 125px;
+    width: 105%;
+}
+.dvk2_title2 {
+    margin-bottom: 10px;
+    margin-top: -3px;
+}
+.dvk2_title2 h3 {
+    text-transform: uppercase;
+    color: #0072bc;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.dvk2_title2 h3:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.dvk2_descrip2 p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lkngoai {
+    color: #0072bc;
+    font-weight: bold;
+}
+.lkngoai:hover {
+    color: orange;
+    text-decoration: underline;
+}
